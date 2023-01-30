@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Blue Fox Weather App</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="main-div">
+            <img class="fox" src="blue-fox.png" alt="blue-fox-logo">
+            <h1>Welcome to Blue Fox Weather Forecast</h1>
+            <form action="/" method="post">
+                <table align="center">
+                    <tr>
+                        <td>City name:</td>
+                        <td><input type="text" name="CITY"></td>
+                    </tr>
+                    <tr>
+                        <td>Temperature unit:</td>
+                        <td>
+                            <select name="TEMP_UNIT">
+                                <option value="imperial">Fahrenheit</option>
+                                <option value="metric" selected>Celsius</option>
+                                <option value="standard">Kelvin</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <button class="button-85" type="submit">Check Whether</button>
+            </form>
+            <p>Made with 💖 in India.</p>
+        </div>
+    </body>
+</html>
